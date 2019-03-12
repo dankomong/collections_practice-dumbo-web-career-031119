@@ -28,9 +28,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map do |str|
+  new_arr = array.map do |str|
     if str.start_with?("a")
       str
     end
   end
+  new_arr.compact
 end
