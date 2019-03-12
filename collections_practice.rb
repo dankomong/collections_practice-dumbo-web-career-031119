@@ -36,3 +36,7 @@ def find_a(array)
   # compact gets rid of nil values
   new_arr.compact
 end
+
+def sum_array(array)
+  
+end
