@@ -33,5 +33,6 @@ def find_a(array)
       str
     end
   end
+  # compact gets rid of nil values
   new_arr.compact
 end
