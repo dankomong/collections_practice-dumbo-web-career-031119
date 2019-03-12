@@ -31,5 +31,6 @@ def find_a(array)
   array.map do |str|
     if str.start_with?("a")
       str
+    end
   end
 end
